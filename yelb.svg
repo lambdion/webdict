@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="48"
+   height="48"
+   viewBox="0 0 12.7 12.7"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.1 (unknown)"
+   sodipodi:docname="yelb.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0.999692;stroke:#cdd161;stroke-width:1.15454;stroke-dasharray:none;stroke-opacity:1"
+       id="path1"
+       cx="6.3500018"
+       cy="6.3500023"
+       inkscape:label="path1"
+       rx="5.772728"
+       ry="5.7727284" />
+    <ellipse
+       style="fill:#000000;fill-opacity:0.99969202;stroke:#000000;stroke-width:1.15454;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse1"
+       cx="6.3500018"
+       cy="6.3500023"
+       inkscape:label="path1"
+       rx="5.772728"
+       ry="5.7727284" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;stroke:#ffd333;stroke-width:0.997916;stroke-dasharray:none;stroke-opacity:1"
+       d="M 0.93351304,6.5458627 C 1.0733741,4.3016484 4.4205261,1.9375214 6.2494528,6.2312111 8.2356855,10.894201 11.756667,8.2583342 11.773898,6.4919517"
+       id="path7"
+       sodipodi:nodetypes="csc" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:0;stroke:#ffd333;stroke-width:1;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse2"
+       cx="6.349998"
+       cy="6.3499975"
+       inkscape:label="path1"
+       rx="5.4131217"
+       ry="5.4131212" />
+  </g>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

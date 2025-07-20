@@ -1,0 +1,70 @@
+/* HEADER */
+body {
+    font-family: sans-serif;
+    max-width: 70em;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-family: "LimeLight", sans-serif;
+}
+.display {
+    font-family: serif;
+}
+/* BAR */
+.bar {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 1em 0;
+}
+input {
+    box-sizing: border-box;
+    padding: 0.5em;
+    font-size: 1.5em;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 0 0 5em gray;
+}
+.bar-button {
+    margin-left: 0.25em;
+    align-self: flex-end;
+    flex-grow: 0;
+}
+.search-bar {
+    width: 0;
+    flex-grow: 1;
+    background-color: #e9e9ed;
+}
+/* RESULTS */
+.result {
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 0 0 5em gray;
+}
+.result .pronunciation {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 0 -0.5em 0;
+}
+.result .lemma {
+    font-size: 5em;
+    font-weight: bolder;
+    margin: 0;
+}
+.result .cat {
+    margin-top: -0.2em;
+    font-weight: bold;
+}
+p + p {
+    margin: 0.2em auto 0.2em auto;
+}
+/* COLORES */
+.a { color: gold; }
+.ar { color: orange; }
+.e { color: firebrick; }
+.er { color: crimson; }
+.i { color: royalblue }
+.ir { color: deepskyblue; }
+.o { color: darkslategray; }
+.u { color: indigo; }
