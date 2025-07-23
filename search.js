@@ -32,7 +32,7 @@ function depale(theme) {
     return (theme[0] == "-") ? theme.slice(1) : theme
 }
 function linkList(arr) {
-    return value.map(word => `<a href="" onclick="goto('${word}')">${word}</a>`).join(", ")
+    return arr.map(word => `<a href="" onclick="goto('${word}')">${word}</a>`).join(", ")
 }
 function insertResults(resultsElement, resultsList) {
     "Print the formatted HTML displaying the data for resultsList into resultsElement"
@@ -41,9 +41,9 @@ function insertResults(resultsElement, resultsList) {
         function field(key) {
                 let value = dict[resultString][key] // Get string from dict
                 if (value == undefined) { value = "" } // Make "" if undefined
-                value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => {
-                    return `<a href="" onclick="goto('${text}')">${text}</a>`;
-                }); // Replace [[text]] with <a href="" onlick="goto('text')">text</a>
+                if (typeof value === 'string') {
+                    value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => `<a href="" onclick="goto('${text}')">${text}</a>`);
+                } // Replace [[text]] with <a href="" onlick="goto('text')">text</a>
                 return value
             }
         let resultCard = `
