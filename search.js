@@ -31,18 +31,19 @@ function depale(theme) {
     "Remove the initial - from a theme in order to get the full theme for optional themes."
     return (theme[0] == "-") ? theme.slice(1) : theme
 }
+function linkList(arr) {
+    return value.map(word => `<a href="" onclick="goto('${word}')">${word}</a>`).join(", ")
+}
 function insertResults(resultsElement, resultsList) {
     "Print the formatted HTML displaying the data for resultsList into resultsElement"
     resultsElement.innerHTML = "" // Clear resultsElement
     for (const resultString of resultsList) { // Iterate through resultsList
         function field(key) {
                 let value = dict[resultString][key] // Get string from dict
-                if (Array.isArray(value)) { value = value.join(", ") } // Convert to string if array
                 if (value == undefined) { value = "" } // Make "" if undefined
                 value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => {
-                    const href = `${text}`;
-                    return `<a href="#" onclick="goto('${href}')">${text}</a>`;
-                }); // Replace [[text]] with <a href="#" onlick="goto('text')">text</a>
+                    return `<a href="" onclick="goto('${text}')">${text}</a>`;
+                }); // Replace [[text]] with <a href="" onlick="goto('text')">text</a>
                 return value
             }
         let resultCard = `
@@ -54,7 +55,7 @@ function insertResults(resultsElement, resultsList) {
             <p>${field("diacronic")}</p>
             <p><i>${field("meaning")}</i></p>
             <p><i>${field("signification")}</i></p>
-            <p>${(field("sinonimes") != "") ? "<b>Sinomines</b>: " + field("sinonimes") : ""}</p>
+            <p>${(field("sinonimes") != "") ? "<b>Sinomines</b>: " + linkList(field("sinonimes")) : ""}</p>
             <p>${field("notes")}</p>
         </div>
         `
