@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     max-width: 70em;
     margin: 0 auto;
+    padding: 10px;
 }
 .title {
     text-align: center;
@@ -10,7 +11,7 @@ body {
     font-family: "LimeLight", sans-serif;
 }
 .display {
-    font-family: serif;
+    font-family: "FreeSerif", "Times New Roman", serif;
 }
 /* BAR */
 .bar {
@@ -22,7 +23,7 @@ input {
     box-sizing: border-box;
     padding: 0.5em;
     font-size: 1.5em;
-    border-radius: 1em;
+    border-radius: 0.5em;
     border: none;
     box-shadow: 0 0 5em gray;
 }
@@ -37,9 +38,10 @@ input {
     background-color: #e9e9ed;
 }
 /* RESULTS */
-.result {
+.result, .info {
     border-radius: 1em;
     padding: 1em;
+    margin-bottom: 1em;
     box-shadow: 0 0 5em gray;
 }
 .result .pronunciation {
@@ -56,15 +58,17 @@ input {
     margin-top: -0.2em;
     font-weight: bold;
 }
-p + p {
+.result > p {
     margin: 0.2em auto 0.2em auto;
 }
 /* COLORES */
 .a { color: gold; }
 .ar { color: orange; }
 .e { color: firebrick; }
+.-e {color: mistyrose; }
 .er { color: crimson; }
 .i { color: royalblue }
 .ir { color: deepskyblue; }
+.-i { color: powderblue; }
 .o { color: darkslategray; }
 .u { color: indigo; }

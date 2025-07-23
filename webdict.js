@@ -1,0 +1,30 @@
+let dict = {
+    "efaciar": {
+        "radica": "efaci",
+        "tema": "ar",
+        "pronunciation": "/e.fa.tsiˈar/",
+        "categorie": "verbe",
+        "sincronic": "[[ex]]- + [[faciar]]",
+        "diacronic": "L. *exfaciāre ('deface')",
+        "cognates": ["English efface", "French effacer", "Italian sfacciare (but which has a different meaning)"],
+        "meaning": "Of something impressed or inscribed upon a surface, to cause to disappear by rubbing out, striking out, etc.; to erase; to render illegible or indiscernible.",
+        "signification": "De alquo impresset o inscrit sur un superficie, causar desaparir per friction, trastrecation, etc.; eraser; causar esser ínleibil o indiscernibil.",
+        "sinonimes": ["deleter", "eraser", "exscrapar", "exterger", "extinter", "anullar", "forstrecar", "obliterar"],
+        "notes": "Stronger and more forceful than [[eraser]], appropriate for both literal and nonliteral meanings, note the negative [[de]]"
+    },
+    "efaruchar": {
+        "radica": "efaruch",
+        "tema": "ar",
+        "pronunciation": "/e.fa.ruˈʃar/",
+        "categorie": "verbe",
+        "sincronic": "[[ex]]- + *faruch + -[[ar]]",
+        "diacronic": "Fr. effaroucher",
+        "meaning": "To scare off or frighten away (an animal), figuratively, to alarm or shock a person."
+    },
+    "brevi": {
+        "radica": "brev",
+        "tema": "-i",
+        "pronunciation": "/bre.vi/",
+        "categorie": "adjective",
+    }
+}
