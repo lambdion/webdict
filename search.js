@@ -13,7 +13,7 @@ function queryDict(dict, query) {
     }
 }
 function theme(theme) {
-    "Take a root string and a theme vowel and return an HTML string."
+    "Take a root string and a theme vowel class and return an HTML string to be appended to the root."
     return {
         "a": "<span class='a'>a</span>",
         "ar": "<span class='ar'>àr</span>",
@@ -24,7 +24,8 @@ function theme(theme) {
         "-i": "<span class='-i'>i</span>",
         "ir": "<span class='ir'>ìr</span>",
         "o": "<span class='o'>o</span>",
-        "u": "<span class='u'>u</span>",
+        "u": "", // Nouns ending -u are still nouns but have no possibility of having an added -e
+        "iei": "", // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
     }[theme]
 }
 function depale(theme) {
@@ -39,7 +40,7 @@ function insertResults(resultsElement, resultsList) {
     resultsElement.innerHTML = "" // Clear resultsElement
     for (const resultString of resultsList) { // Iterate through resultsList
         function field(key) {
-                let value = dict[resultString][key] // Get string from dict
+                let value = dict[resultString][key] // Get value from dict
                 if (value == undefined) { value = "" } // Make "" if undefined
                 if (typeof value === 'string') {
                     value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => `<a href="" onclick="goto('${text}')">${text}</a>`);

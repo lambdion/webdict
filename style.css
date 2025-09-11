@@ -65,10 +65,11 @@ input {
 .a { color: gold; }
 .ar { color: orange; }
 .e { color: firebrick; }
-.-e {color: mistyrose; }
+.-e {color: rgba(255, 0, 0, 0.1); }
 .er { color: crimson; }
 .i { color: royalblue }
 .ir { color: deepskyblue; }
-.-i { color: powderblue; }
-.o { color: darkslategray; }
+.-i { color: rgba(0, 0, 255, 0.1); }
+.o { color: darkslateblue; }
 .u { color: indigo; }
+.ie { color: mediumpurple; }
