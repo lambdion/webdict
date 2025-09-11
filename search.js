@@ -56,6 +56,7 @@ function insertResults(resultsElement, resultsList) {
             <p>${field("diacronic")}</p>
             <p><i>${field("meaning")}</i></p>
             <p><i>${field("signification")}</i></p>
+            <p>${(field("sinonimes") != "") ? "<b>Cognates</b>: " + field("sinonimes").join(", ") : ""}</p>
             <p>${(field("sinonimes") != "") ? "<b>Sinomines</b>: " + linkList(field("sinonimes")) : ""}</p>
             <p>${field("notes")}</p>
         </div>

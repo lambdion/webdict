@@ -13,7 +13,8 @@ function showInfo() {
         <p>Diacronic etimologie (historic antecessores)</p>
         <p><i>A definition or guide to the meaning of the word, in English. Polysemy (multiple meanings in different contexts) will be listed, and relevant contexts given in parentheses (e.g. <i>scientific</i>). The Websterian inspiration is in definitions being nuanced and almost poetic rather than dry and obvious.</i></p>
         <p><i>Un definition o guidantie por li signification del parol, in Occidental. Polisemie (multiplic significations in distint contextus) va esser listat, e pertinent contextus dat in parenteses (p. ex. <i>scientic</i>). Li Websterian inspiration es in definitions esser nuanciat e presc poetic vice laconic e ja evident.</i></p>
-        <p><b>Sinomines</b>: un, liste, del, similari, paroles</p>
+        <p><b>Cognates</b>: un, liste, de, corespondent, paroles, de, altri, lingues</p>
+        <p><b>Sinomines</b>: un, liste, de, similari, paroles</p>
         <p>Additional discussion pri li signification o usation del parol e su amics va esser dat u necessi.</p>
     </div>
     <div class="info">
