@@ -32,6 +32,9 @@ input {
     align-self: flex-end;
     flex-grow: 0;
 }
+#info-button {
+    min-width: 3em; /* So it doesn’t change size when changing text content */
+}
 .search-bar {
     width: 0;
     flex-grow: 1;
@@ -62,23 +65,21 @@ input {
     margin: 0.2em auto 0.2em auto;
 }
 /* COLORES */
-.a { color: gold; }
-.ar { color: orange; }
+.a { color: gold; } /* #8A7500 for accessibility */
+.ar { color: orange; } /* #A36A00 for accessibility*/
 .e { color: firebrick; }
 .-e {color: rgba(255, 0, 0, 0.1); }
 .é {color: firebrick}
 .er { color: crimson; }
 .i { color: royalblue }
-.ir { color: deepskyblue; }
+.ir { color: deepskyblue; } /* #007EA8 for accessibility */
 .-i { color: rgba(0, 0, 255, 0.1); }
 .o { color: darkslateblue; }
 .u { color: indigo; }
-.ie { color: mediumpurple; }
+.ie { color: mediumpurple; } /* #855CD6 for accessibility */
 
 /* TODO
- * Make it so the Info/Cela button does not change width
  * Make Info and GitHub buttons comply with Google Lighthouse (24px?)
- * Fix error queryData not defined
  * Add option to change colors for accessibility
  * Fix padding around paragraphs in boxes, especially for info boxes (should top and bottom be less?)
  * Make font be NotoSans when available, make font be San Francisco when available

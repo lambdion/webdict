@@ -4,6 +4,7 @@ function condition(entry, query) {
 }
 function queryDict(dict, query) {
     "Set the contents of the element with id #results to the entries in dict whose key string contain query."
+    document.getElementById("info-button").value = "Info"; // Set #info-button to say Info
     let resultsElement = document.getElementById("results") // Set resultsElement to the element with id #results
     let resultsList = Object.keys(dict).filter(key => condition(key, query)) // Return the keys in dict that meet condition()
     if (resultsList != []) { // If the list is not empty, print the results into resultsElement using insertResults()
