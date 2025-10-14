@@ -3,6 +3,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   const response = await fetch("./webdict.json");
   if (response.ok) {
     dict = await response.json();
-    queryData(dict, "")
+    queryDict(dict, "") // Run first blank query to populate search results with all words
   }
 });
