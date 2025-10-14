@@ -19,14 +19,14 @@ function theme(theme) {
         "ar": "<span class='ar'>àr</span>",
         "e": "<span class='e'>e</span>",
         "-e": "<span class='-e'>e</span>",
-        "é": "<span class='é'>é</span>"
+        "é": "<span class='é'>é</span>",
         "er": "<span class='er'>èr</span>",
         "i": "<span class='i'>i</span>",
         "-i": "<span class='-i'>i</span>",
         "ir": "<span class='ir'>ìr</span>",
         "o": "<span class='o'>o</span>",
         "u": "", // Nouns ending -u are still nouns but have no possibility of having an added -e
-        "iei": "", // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
+        "iei": "" // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
     }[theme]
 }
 function depale(theme) {
