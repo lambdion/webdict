@@ -66,6 +66,7 @@ input {
 .ar { color: orange; }
 .e { color: firebrick; }
 .-e {color: rgba(255, 0, 0, 0.1); }
+.é {color: firebrick}
 .er { color: crimson; }
 .i { color: royalblue }
 .ir { color: deepskyblue; }
@@ -73,3 +74,12 @@ input {
 .o { color: darkslateblue; }
 .u { color: indigo; }
 .ie { color: mediumpurple; }
+
+/* TODO
+ * Make it so the Info/Cela button does not change width
+ * Make Info and GitHub buttons comply with Google Lighthouse (24px?)
+ * Fix error queryData not defined
+ * Add option to change colors for accessibility
+ * Fix padding around paragraphs in boxes, especially for info boxes (should top and bottom be less?)
+ * Make font be NotoSans when available, make font be San Francisco when available
+ */

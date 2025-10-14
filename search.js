@@ -19,6 +19,7 @@ function theme(theme) {
         "ar": "<span class='ar'>àr</span>",
         "e": "<span class='e'>e</span>",
         "-e": "<span class='-e'>e</span>",
+        "é": "<span class='é'>é</span>"
         "er": "<span class='er'>èr</span>",
         "i": "<span class='i'>i</span>",
         "-i": "<span class='-i'>i</span>",

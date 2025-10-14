@@ -1,14 +1,96 @@
 {
+    "atestar": {
+        "radica": "atest",
+        "tema": "ar",
+        "pronunciation": "/a.teˈstar/",
+        "categorie": "verbe",
+        "sincronic": "[[a]]- + [[test]] + -ar",
+        "diacronic": "L. attestor",
+        "cognates": ["A. attest", "F. attester", "H. atestar", "I. attestare"],
+        "meaning": "To bear witness to [something] and affirm [it] to be true, or give proof of [something].",
+        "signification": "Vider [alquo] e afirmar [su] veritá, o dar pruva de [alquo].",
+        "sinonimes": ["garantir", "testimoniar", "testificar", "certificar"]
+    },
+    "aparer": {
+        "radica": "apar",
+        "tema": "er",
+        "pronunciation": "/a.paˈrer/",
+        "categorie": "verbe",
+        "diacronic": "L. appārēre",
+        "cognates": ["A. appear", "F. apparoir", "I. apparire"],
+        "meaning": "To seem [in a certain way], (chiefly visually), to have a [certain kind of] appearance.",
+        "signification": "Semblar [in un cert maniere] (precipue visualmen), haver un [cert tip de] aparentie.",
+        "sinonimes": ["semblar"],
+        "notes": "Kemp and Pope separate the meanings of “appear” into [[aparer]] ([[semblar]]) and [[aparir]] ([[exposir]] se, o [[emerser]])."
+    },
+    "aparir": {
+        "radica": "apar",
+        "tema": "ir",
+        "pronunciation": "/a.paˈrir/",
+        "categorie": "verbe",
+        "diacronic": "L. appārēre",
+        "cognates": ["A. appear", "F. apparoir", "I. apparire"],
+        "meaning": "To become visible, to come into vision.",
+        "signification": "Devenir visibil, venir a vision.",
+        "sinonimes": ["exposir", "emerser"],
+        "notes": "Kemp and Pope separate the meanings of “appear” into [[aparer]] ([[semblar]]) and [[aparir]] ([[exposir]] se, o [[emerser]])."
+    },
+    "brevi": {
+        "radica": "brèv",
+        "tema": "i",
+        "pronunciation": "/ˈbre.vi/",
+        "categorie": "adjective",
+        "diacronic": "L. brevis",
+        "cognates": ["A. brief", "F. bref", "H. breve", "I. breve"],
+        "meaning": "Of little length (distance, duration etc.)",
+        "signification": "De poc longore (distantie, duration, etc.)",
+        "sinonimes": ["curt"]
+    },
+    "cité": {
+        "radica": "cit",
+        "tema": "é",
+        "pronunciation": "/tsiˈte/",
+        "categorie": "substantive",
+        "diacronic": "F. cité, de L. cīvitātem",
+        "cognates": ["A. city", "F. cité", "H. ciudad", "I. città"],
+        "meaning": "A town or populated place, likely a larger one.",
+        "signification": "Un borgo o populat loc, probabilmen un que es plu grand.",
+        "sinonimes": ["borgo"],
+        "notes": "Languages and even specific countries have differing rules regarding when or whether a large enough town becomes classed as a city."
+    },
+    "declarar": {
+        "radica": "declar",
+        "tema": "ar",
+        "pronunciation": "/de.claˈrar/",
+        "categorie": "verbe",
+        "sincronic": "[[de]]- + [[clar]] + -ar",
+        "diacronic": "L. dēclārō",
+        "cognates": ["A. declare", "F. déclarer", "H. declarar", "I. dichiarare"],
+        "meaning": "To announce and make known [something], usually with words.",
+            "signification": "Anunciar e far conosset [alquó], usualmen con paroles.",
+        "sinonimes": [""],
+        "notes": "Litteralmen 'far clar', li signification in modern lingues es 'far conosset'. Por 'far clar', vide [[aclarar]] o [[clarificar]]."
+    },
+   "detronar": {
+        "radica": "detron",
+        "tema": "ar",
+        "pronunciation": "/de.troˈnar/",
+        "categorie": "verbe",
+        "sincronic": "[[de]]- + [[tron]] + -ar",
+        "cognates": ["A. dethrone", "F. détrôner", "H. destronar", "I. detronizzare"],
+        "meaning": "To remove or drive [someone] from a throne, to remove [someone] from authority or dignity.",
+        "signification": "Removar o fortiar [alqui] de un tron, removar [alqui] de autoritá o dignitá."
+    },
     "efaciar": {
         "radica": "efaci",
         "tema": "ar",
         "pronunciation": "/e.fa.tsiˈar/",
         "categorie": "verbe",
         "sincronic": "[[ex]]- + [[faciar]]",
-        "diacronic": "L. *exfaciāre ('deface')",
-        "cognates": ["English efface", "French effacer", "Italian sfacciare (but which has a different meaning)"],
-        "meaning": "Of something impressed or inscribed upon a surface, to cause to disappear by rubbing out, striking out, etc.; to erase; to render illegible or indiscernible.",
-        "signification": "De alquo impresset o inscrit sur un superficie, causar desaparir per friction, trastrecation, etc.; eraser; causar esser ínleibil o indiscernibil.",
+        "diacronic": "L. *exfaciāre (\"deface\")",
+        "cognates": ["A. efface", "F. effacer", "I. sfacciare (have un diferent signification)"],
+        "meaning": "To cause [something impressed or inscribed upon a surface] to disappear by rubbing out, striking out, etc.; to erase; to render illegible or indiscernible.",
+        "signification": "Causar [alquo impresset o inscrit sur un superficie] desaparir per friction, trastrecation, etc.; eraser; causar esser ínleibil o indiscernibil.",
         "sinonimes": ["deleter", "eraser", "exscrapar", "exterger", "extinter", "anullar", "forstrecar", "obliterar"],
         "notes": "Stronger and more forceful than [[eraser]], appropriate for both literal and nonliteral meanings, note the negative [[de]]"
     },
@@ -17,14 +99,51 @@
         "tema": "ar",
         "pronunciation": "/e.fa.ruˈʃar/",
         "categorie": "verbe",
-        "sincronic": "[[ex]]- + *faruch + -[[ar]]",
-        "diacronic": "Fr. effaroucher",
-        "meaning": "To scare off or frighten away (an animal), figuratively, to alarm or shock a person."
+        "sincronic": "[[ex]]- + *faruch + -ar",
+        "diacronic": "F. effaroucher",
+        "meaning": "To scare off or frighten away (an animal), figuratively, to alarm or shock a person.",
+        "sinonimes": ["terrer", "timentar"]
     },
-    "brevi": {
-        "radica": "brev",
-        "tema": "-i",
-        "pronunciation": "/bre.vi/",
-        "categorie": "adjective"
+    "jurnale": {
+        "radica": "jurnàl",
+        "tema": "e",
+        "pronunciation": "/ʒurˈna.le/",
+        "categorie": "substantive",
+        "diacronic": "F. journal, de L. diurnālis",
+        "cognates": ["A. journal", "G. Journal", "F. journal", "I. giornale"],
+        "meaning": "A periodical publication, either for news or academic articles, or a diary/notebook for personal use.",
+        "signification": "Un periodical publication, sive por novas sive por academic articules, o un diarium/caderne por personal scrition.",
+        "sinonimes": ["gazette", "diarium", "caderne", "revúe"]
+    },
+    "regul": {
+        "radica": "règul",
+        "tema": "-e",
+        "pronunciation": "/ˈre.gul/",
+        "categorie": "substantive",
+        "diacronic": "L. rēgula",
+        "cognates": ["A. rule", "G. Regel", "F. règle", "H. reja (have un diferent signification)", "I. regola"],
+        "meaning": "Something prescribed as governance for conduct or action, or an established or usual course or generalization.",
+        "signification": "Alquó que es prescrit quam guvernantie por conduida o action, o un etablisset o usual curse o generalisation.",
+        "sinonimes": ["norme", "maxim", "precepte"]
+    },
+    "saltar": {
+        "radica": "salt",
+        "tema": "ar",
+        "pronunciation": "/salˈtar/",
+        "categorie": "verbe",
+        "diacronic": "L. saltāre",
+        "meaning": "To jump, to propel oneself up from the ground or down off from a high place with the legs.",
+        "signification": "Propulse se ad-supra del suol o ad-infra de un alt loc con li gambes.",
+        "cognates": ["A. saltate", "F. sauter", "H. saltar", "I. saltare"]
+    },
+    "tron": {
+        "radica": "tròn",
+        "tema": "-e",
+        "pronunciation": "/tron/",
+        "categorie": "substantive",
+        "diacronic": "L. thronus, del grec θρόνος",
+        "cognates": ["A. throne", "F. trône", "H. trono", "I. trono"],
+        "meaning": "A chair of state, usually of a monarch, or metaphorically the power and role which the seat accompanies.",
+        "signification": "Un stul del state, usualmen de un monarch, o metaforicmen li potentie e rol quel li sede acompania."
     }
 }
