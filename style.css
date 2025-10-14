@@ -1,7 +1,7 @@
 /* FONTS */
 body {
     /* Default Sans-Serif system font stack */
-    font-family: font-family: -apple-system, BlinkMacSystemFont, Noto, Noto Sans, Roboto, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, helvetica, arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Noto, Noto Sans, Roboto, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, helvetica, arial, sans-serif;
     /* Formatting for main container */
     max-width: 70em;
     margin: 0 auto;
@@ -13,7 +13,7 @@ body {
   font-family: 'Limelight';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/limelight-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('./limelight-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 .title {
     text-align: center;
