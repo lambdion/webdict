@@ -34,7 +34,7 @@ function depale(theme) {
     return (theme[0] == "-") ? theme.slice(1) : theme
 }
 function linkList(arr) {
-    return arr.map(word => `<a href="" onclick="goto('${word}')">${word}</a>`).join(", ")
+    return arr.map(word => `<a href="javascript:goto('${word}')">${word}</a>`).join(", ")
 }
 function insertResults(resultsElement, resultsList) {
     "Print the formatted HTML displaying the data for resultsList into resultsElement"
@@ -44,7 +44,7 @@ function insertResults(resultsElement, resultsList) {
                 let value = dict[resultString][key] // Get value from dict
                 if (value == undefined) { value = "" } // Make "" if undefined
                 if (typeof value === 'string') {
-                    value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => `<a href="" onclick="goto('${text}')">${text}</a>`);
+                    value = value.replace(/\[\[(.+?)\]\]/g, (match, text) => `<a href="javascript:goto('${text}')">${text}</a>`);
                 } // Replace [[text]] with <a href="" onlick="goto('text')">text</a>
                 return value
             }
