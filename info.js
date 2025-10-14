@@ -11,8 +11,8 @@ function showInfo() {
         <p class="cat a">grammatical categorie</p>
         <p>Sincronic etimologie (morfologic structura)</p>
         <p>Diacronic etimologie (historic antecessores)</p>
-        <p><i>A definition or guide to the meaning of the word, in English. Polysemy (multiple meanings in different contexts) will be listed, and relevant contexts given in parentheses (e.g. <i>scientific</i>). The Websterian inspiration is in definitions being nuanced and almost poetic rather than dry and obvious.</i></p>
-        <p><i>Un definition o guidantie por li signification del parol, in Occidental. Polisemie (multiplic significations in distint contextus) va esser listat, e pertinent contextus dat in parenteses (p. ex. <i>scientic</i>). Li Websterian inspiration es in definitions esser nuanciat e presc poetic vice laconic e ja evident.</i></p>
+        <p><i>A definition or guide to the meaning of the word, in English. Polysemy (multiple meanings in different contexts) will be listed, and relevant contexts given in parentheses (e.g. <i>scientific</i>). The Websterian inspiration is in the aim to have detailled, nuanced guidance to the meaning of words, especially with respect to other words.</i></p>
+        <p><i>Un definition o guidantie por li signification del parol, in Occidental. Polisemie (multiplic significations in distint contextus) va esser listat, e pertinent contextus dat in parenteses (p. ex. <i>scientic</i>). Li Websterian inspiration es in li scop de haver detalliat, nuanciat guidantie al signification del paroles, precipue con egarde a altri paroles.</i></p>
         <p><b>Cognates</b>: un, liste, de, corespondent, paroles, de, altri, lingues</p>
         <p><b>Sinomines</b>: un, liste, de, similari, paroles</p>
         <p>Additional discussion pri li signification o usation del parol e su amics va esser dat u necessi.</p>
@@ -28,7 +28,7 @@ function showInfo() {
         <dl>
             <dt>A.</dt><dd>Anglesi (English)</dd>
             <dt>F.</dt><dd>Francesi (Français)</dd>
-            <dt>G.</dt><dd>German (Deutch)</dd>
+            <dt>D.</dt><dd>German (Deutch)</dd>
             <dt>H.</dt><dd>Hispan (Español)</dd>
             <dt>I.</dt><dd>Italian (Italiano)</dd>
             <dt>L.</dt><dd>Latin (Latinum)</dd>
