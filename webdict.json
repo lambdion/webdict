@@ -1,4 +1,12 @@
 {
+        "aciecar": {
+                "radica": "aciec",
+                "tema": "ar",
+                "pronunciation": "/a.tsjeˈkar/",
+                "categorie": "verbe",
+                "sincronic": "[[a]]- + [[ciec]] + -ar",
+                "notes": "Regarda [[ciecar]]"
+        },
         "atestar": {
                 "radica": "atest",
                 "tema": "ar",
@@ -8,7 +16,7 @@
                 "diacronic": "L. attestor",
                 "cognates": ["A. attest", "F. attester", "H. atestar", "I. attestare"],
                 "meaning": "To bear witness to [something] and affirm [it] to be true, or give proof of [something].",
-                "signification": "Vider [alquo] e afirmar [su] veritá, o dar pruva de [alquo].",
+                "signification": "Vider [alquó] e afirmar [su] veritá, o dar pruva de [alquó].",
                 "sinonimes": ["garantir", "testimoniar", "testificar", "certificar"]
         },
         "aparer": {
@@ -35,6 +43,30 @@
                 "sinonimes": ["exposir", "emerser"],
                 "notes": "Kemp and Pope separate the meanings of “appear” into [[aparer]] ([[semblar]]) and [[aparir]] ([[exposir]] se, o [[emerser]])."
         },
+        "born": {
+                "radica": "bòrn",
+                "tema": "-e",
+                "pronunciation": "/born/",
+                "categorie": "substantive",
+                "diacronic": "F. borne, de celtic orígine",
+                "cognates": ["A. bound", "F. borne", "H. borne"],
+                "meaning": "A limit, especially a physical border or boundary, (mathematics) a known maximum or minimum possible value.",
+                "signification": "Un límite, precipue un fisic borde o frontiera, (matematica) un savet maximum o minimum possibil valore.",
+                "sinonimes": ["límite", "borde", "frontiera"],
+                "notes": "Atestat quam ambi born e borne, ínafin al simil borde. Sovente plural."
+        },
+        "bornar": {
+                "radica": "born",
+                "tema": "ar",
+                "pronunciation": "/borˈnar/",
+                "categorie": "verbe",
+                "sincronic": "F. borner",
+                "diacronic": "[[born]] + -ar",
+                "cognates": ["A. bound", "F. borner", "rumanian borna"],
+                "meaning": "To give bounds to [something], to limit [its] extent, or metaphorically of information, to narrow down the possible range of [something unknown].",
+                "signification": "Dar bornes a [alquó], limitar [su] extension, o metaforicmen pri information, reducter li possibil extension de [alquó ínsavet].",
+                "sinonimes": ["limitar", "confinar", "restricter", "astrettar"]
+        },
         "brevi": {
                 "radica": "brèv",
                 "tema": "i",
@@ -45,6 +77,64 @@
                 "meaning": "Of little length (distance, duration, etc.)",
                 "signification": "De poc longore (distantie, duration, etc.)",
                 "sinonimes": ["curt"]
+        },
+        "carga": {
+                "radica": "càrg",
+                "tema": "a",
+                "pronunciation": "/karˈga/",
+                "categorie": "substantive",
+                "diacronic": "H. carga",
+                "meaning": "A load or burden, of physical weight to be carried.",
+                "signification": "Alquó que deve esser portat, un fisic pesa.",
+                "sinonimes": ["pesa", "cargo", "charge"],
+                "notes": "Could be used metaphorically, but Kemp and Pope propose [[charge]] for abstract burdens."
+        },
+        "cargo": {
+                "radica": "càrg",
+                "tema": "o",
+                "pronunciation": "/karˈgo/",
+                "categorie": "substantive",
+                "diacronic": "H. cargo",
+                "cognates": ["A. cargo", "F. cargo (signfica li nave)", "H. cargo", "I. cargo (significa li vehicul)"],
+                "meaning": "Something being transported, especially by boat, freight.",
+                "signification": "Alquó que es transportat, precipue per nave, frete.",
+                "sinonimes": ["frete", "carga", "porte"],
+                "notes": "Bears the logistical or legal sense, out of the trio of [[carga]], [[cargo]], and [[charge]]"
+        },
+        "cargar": {
+                "radica": "carg",
+                "tema": "ar",
+                "pronunciation": "/karˈgar/",
+                "categorie": "verbe",
+                "sincronic": "[[cargo]]/[[carga]] + -ar",
+                "diacronic": "H. cargar, de L. carricāre",
+                "cognates": ["A. charge", "F. charger", "H. cargar", "I. caricare"],
+                "meaning": "To load [something] onto a means of transport or into a container, to load [a container] with things, (computing) to load into memory, (technology) to fill [a battery] or battery of [a device].",
+                "signification": "Metter o posir [alquó] a un medie de transportation o in un scatulle, metter cosas in [un scatulle], (computation) mover se in memorie, (tecnologie) plenar [un batterie] o li batterie de un [machine]."
+        },
+        "charge": {
+                "radica": "charg",
+                "tema": "e",
+                "pronunciation": "/ʃarˈʒe/",
+                "categorie": "substantive",
+                "diacronic": "F. charge, de F. charger, de L. carricāre",
+                "cognates": ["A. charge", "F. charge"],
+                "meaning": "Something which one must do or care for, a task or metaphorical burden.",
+                "signification": "Alquó que on deve far o cuidar, un tache o metaforic carga.",
+                "sinonimes": ["carga", "pesa", "responsibilitá", "obligation", "tache"],
+                "notes": "Bears the abstract sense compared to the literal [[carga]] and formal [[cargo]]."
+        },
+        "ciecar": {
+                "radica": "ciec",
+                "tema": "ar",
+                "pronunciation": "/tsjeˈkar/",
+                "categorie": "verbe",
+                "sincronic": "[[ciec]] + -ar",
+                "diacronic": "L. caecāre",
+                "cognates": ["H. cegar", "I. ciecare"],
+                "meaning": "To blind [someone], to daze or dazzle [someone]",
+                "signification": "Far ciec [alquí], dazlar o temporarimen stupefar [alquí]",
+                "sinonimes": ["aciecar", "dazlar", "aturdir", "stupefar"]
         },
         "cité": {
                 "radica": "cit",
@@ -69,10 +159,20 @@
                 "signification": "De poc longore (distantie, duration, etc.)",
                 "sinonimes": ["brevi"]
         },
+        "dazlar": {
+                "radica": "dazl",
+                "tema": "ar",
+                "pronunciation": "/daˈdzlar/",
+                "categorie": "verbe",
+                "diacronic": "A. dazzle",
+                "meaning": "To overpower [someone] with bright lights, or metaphorically to do likewise with a performance.",
+                "signification": "Subjugar [alquí] per fort luces, o metaforicmen far talmen per un performantie.",
+                "sinonimes": ["aciecar", "ciecar", "stupefar", "aturdir"]
+        },
         "declarar": {
                 "radica": "declar",
                 "tema": "ar",
-                "pronunciation": "/de.claˈrar/",
+                "pronunciation": "/de.klaˈrar/",
                 "categorie": "verbe",
                 "sincronic": "[[de]]- + [[clar]] + -ar",
                 "diacronic": "L. dēclārō",
@@ -80,7 +180,7 @@
                 "meaning": "To announce and make known [something], usually with words.",
                 "signification": "Anunciar e far conosset [alquó], usualmen con paroles.",
                 "sinonimes": [""],
-                "notes": "Litteralmen 'far clar', li signification in modern lingues es 'far conosset'. Por 'far clar', vide [[aclarar]] o [[clarificar]]."
+                "notes": "Litteralmen 'far clar', li signification in modern lingues es 'far conosset'. Por 'far clar', regarda [[aclarar]] o [[clarificar]]."
         },
         "detronar": {
                 "radica": "detron",
@@ -90,7 +190,18 @@
                 "sincronic": "[[de]]- + [[tron]] + -ar",
                 "cognates": ["A. dethrone", "F. détrôner", "H. destronar", "I. detronizzare"],
                 "meaning": "To remove or drive [someone] from a throne, to remove [someone] from authority or dignity.",
-                "signification": "Removar o fortiar [alqui] de un tron, removar [alqui] de autoritá o dignitá."
+                "signification": "Removar o fortiar [alquí] de un tron, removar [alquí] de autoritá o dignitá."
+        },
+        "docer": {
+                "radica": "doc",
+                "tema": "er",
+                "pronunciation": "/doˈtser/",
+                "categorie": "verbe",
+                "sincronic": "",
+                "diacronic": "L. docēre",
+                "meaning": "To teach, to impart to [someone] [knowledge] or [how to do something], to guide and cause [learning].",
+                "signification": "Instructer, dar a [alquí] [saventie] o [per quo far alquó], ducter e causar [aprension].",
+                "sinonimes": ["educar", "instructer", "comunicar"]
         },
         "efaciar": {
                 "radica": "efaci",
@@ -101,9 +212,10 @@
                 "diacronic": "L. *exfaciāre (\"deface\")",
                 "cognates": ["A. efface", "F. effacer", "I. sfacciare (have un diferent signification)"],
                 "meaning": "To cause [something impressed or inscribed upon a surface] to disappear by rubbing out, striking out, etc.; to erase; to render illegible or indiscernible.",
-                "signification": "Causar [alquo impresset o inscrit sur un superficie] desaparir per friction, trastrecation, etc.; eraser; causar esser ínleibil o indiscernibil.",
+                "signification": "Causar [alquó impresset o inscrit sur un superficie] desaparir per friction, trastrecation, etc.; eraser; causar que [alquó] es ínleibil o indiscernibil.",
                 "sinonimes": ["deleter", "eraser", "exscrapar", "exterger", "extinter", "anullar", "forstrecar", "obliterar"],
-                "notes": "Stronger and more forceful than [[eraser]], appropriate for both literal and nonliteral meanings, note the negative [[de]]"
+                "quotationes": [["On posse facilmen efaciar it per li gumme.", "Ric Berger", "Li folioteca del laborator intelectual", 1938]],
+                "notes": "Stronger and more forceful than [[eraser]], appropriate for both literal and nonliteral meanings, note the negative counterpart [[defaciar]]."
         },
         "efaruchar": {
                 "radica": "efaruch",
@@ -114,6 +226,54 @@
                 "diacronic": "F. effaroucher",
                 "meaning": "To scare off or frighten away (an animal), figuratively, to alarm or shock a person.",
                 "sinonimes": ["terrer", "timentar"]
+        },
+        "fascinar": {
+                "radica": "fascin",
+                "tema": "ar",
+                "pronunciation": "/fa.stsiˈnar/",
+                "categorie": "verbe",
+                "sincronic": "L. fascināre",
+                "cognates": ["A. fascinate", "F. fasciner", "G. faszinieren", "H. fascinar"],
+                "meaning": "To enchant or bewitch [someone], by extension to strongly enthrall the interest of [someone].",
+                "signification": "Charmar o insorciar [alquí], per extension fortmen subjugar li interest de [alquí].",
+                "sinonimes": ["charmar", "ravisser", "dazlar", "insorciar"],
+                "notes": "The original meaning is magical, the intellectual meaning is modern but more common"
+        },
+        "frete": {
+                "radica": "fret",
+                "tema": "e",
+                "pronunciation": "/freˈte/",
+                "categorie": "substantive",
+                "diacronic": "varie, ultimatmen medie nederlandesi vrecht",
+                "cognates": ["A. freight", "F. fret", "G. Fracht", "H. flete"],
+                "meaning": "Originally, the price paid for transportation of goods, also the goods themselves or the task of transporting them.",
+                "signification": "Originalmen, li precie payat por li transportation de cargo, anc li cargo self, o li activitá de transporter le.",
+                "sinonimes": ["cargo", "porte"],
+                "notes": "The rental fee meaning is present in all the European cognates, so [[cargo]] may be clearer to refer to transported goods rather than the occupation."
+        },
+        "inculcar": {
+                "radica": "inculc",
+                "tema": "ar",
+                "pronunciation": "/in.kulˈkar/",
+                "categorie": "verbe",
+                "diacronic": "L. inculcāre, de [[in]] + calx ([[calcan]]) ",
+                "cognates": ["A. inculcate", "F. inculquer", "H. inculcar", "I., inculcare"],
+                "meaning": "To instill, impress, or ingrain [knowledge, feelings, or beliefs] within someone, to instill [an idea], with repetition and force.",
+                "signification": "Impresser o inplantar [idés, saventie, sentes, o credenties] intern alquí, con repetition e fortie.",
+                "sinonimes": ["inplantar", "inspirar"],
+                "notes": ""
+        },
+        "inter": {
+                "radica": "inter",
+                "notes": "Regarda [[ínter]]"
+        },
+        "ínter": {
+                "radica": "ínter",
+                "pronunciation": "/ˈin.ter/",
+                "categorie": "preposition",
+                "diacronic": "L. inter",
+                "cognates": ["F. entre", "H. entre", "I. tra"],
+                "meaning": "Between [two or more things], or among [many things]"
         },
         "jurnale": {
                 "radica": "jurnàl",

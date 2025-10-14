@@ -20,6 +20,7 @@ function showInfo() {
     <div class="info">
         <p>Li paroles que have lexical temas (p. ex. <span class="a">a</span> o <span class="er">er</span>) es colorat aptmen. Paroles con optional eufonic vocales (p. ex. omni adjective posse esser terminat con <span class="i">i</span> si su fonologie permisse) have un color debil o pallid. (dunc: <b>solar<span class="i">i</span></b>, <b>obscur<span class="-i">i</span></b>, ma <b>blanc</span></b>).</p>
         <p>Textu posse haver ligamentes que sercha un parol quande claccat, p. ex. por sercha li parol <a href="#" onclick="goto('efaciar')">efaciar</a>.</p>
+        <p>Adplu, li expectat objecte de verbes va esser indicat per [quadrat parenteses].</p>
         <p>Sequente li convention de Haas (de su Grammatica), un grave (\`) indica un regulari accentu quel es ordinarimen ínscrit, e un acute (´) indica un ínregulari accentu quel deve esser scrit.</p>
         <p>Ti dictionarium ne va contene omni regulari derivationes, precipue solmen quande li signification ne es compositional, a saver: it significa distintmen de su componentes. Consulta un Grammatica o usa li <a href="https://occidental-lang.com/derive-from-verb/">utilitá de derivation sur li websitu</a> por vider omni possibil paroles.</p>
     </div>
