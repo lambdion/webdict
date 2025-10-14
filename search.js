@@ -27,7 +27,8 @@ function theme(theme) {
         "ir": "<span class='ir'>ìr</span>",
         "o": "<span class='o'>o</span>",
         "u": "", // Nouns ending -u are still nouns but have no possibility of having an added -e
-        "iei": "" // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
+        "iei": "", // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
+        "": ""
     }[theme]
 }
 function depale(theme) {

@@ -81,7 +81,7 @@
         "carga": {
                 "radica": "càrg",
                 "tema": "a",
-                "pronunciation": "/karˈga/",
+                "pronunciation": "/ˈkar.ga/",
                 "categorie": "substantive",
                 "diacronic": "H. carga",
                 "meaning": "A load or burden, of physical weight to be carried.",
@@ -92,12 +92,12 @@
         "cargo": {
                 "radica": "càrg",
                 "tema": "o",
-                "pronunciation": "/karˈgo/",
+                "pronunciation": "/ˈkar.go/",
                 "categorie": "substantive",
                 "diacronic": "H. cargo",
                 "cognates": ["A. cargo", "F. cargo (signfica li nave)", "H. cargo", "I. cargo (significa li vehicul)"],
-                "meaning": "Something being transported, especially by boat, freight.",
-                "signification": "Alquó que es transportat, precipue per nave, frete.",
+                "meaning": "Something being transported over long distances, especially by boat, freight.",
+                "signification": "Alquó que es transportat trans un long distantie, precipue per nave, frete.",
                 "sinonimes": ["frete", "carga", "porte"],
                 "notes": "Bears the logistical or legal sense, out of the trio of [[carga]], [[cargo]], and [[charge]]"
         },
@@ -113,16 +113,16 @@
                 "signification": "Metter o posir [alquó] a un medie de transportation o in un scatulle, metter cosas in [un scatulle], (computation) mover se in memorie, (tecnologie) plenar [un batterie] o li batterie de un [machine]."
         },
         "charge": {
-                "radica": "charg",
+                "radica": "chàrg",
                 "tema": "e",
-                "pronunciation": "/ʃarˈʒe/",
+                "pronunciation": "/ˈʃar.ʒe/",
                 "categorie": "substantive",
                 "diacronic": "F. charge, de F. charger, de L. carricāre",
                 "cognates": ["A. charge", "F. charge"],
                 "meaning": "Something which one must do or care for, a task or metaphorical burden.",
                 "signification": "Alquó que on deve far o cuidar, un tache o metaforic carga.",
                 "sinonimes": ["carga", "pesa", "responsibilitá", "obligation", "tache"],
-                "notes": "Bears the abstract sense compared to the literal [[carga]] and formal [[cargo]]."
+                "notes": "Bears the abstract sense compared to the literal [[carga]] and formal [[cargo]]. Spanish distinguishes [[carga]] and [[cargo]], here a further distinction is created by splitting off the ‘responsibility, duty’ meaning from [[cargo]], leaving behind just ‘goods for freight’."
         },
         "ciecar": {
                 "radica": "ciec",
@@ -240,11 +240,11 @@
                 "notes": "The original meaning is magical, the intellectual meaning is modern but more common"
         },
         "frete": {
-                "radica": "fret",
+                "radica": "frèt",
                 "tema": "e",
-                "pronunciation": "/freˈte/",
+                "pronunciation": "/ˈfre.te/",
                 "categorie": "substantive",
-                "diacronic": "varie, ultimatmen medie nederlandesi vrecht",
+                "diacronic": "varie, ultimatmen li medie nederlandesi vrecht",
                 "cognates": ["A. freight", "F. fret", "G. Fracht", "H. flete"],
                 "meaning": "Originally, the price paid for transportation of goods, also the goods themselves or the task of transporting them.",
                 "signification": "Originalmen, li precie payat por li transportation de cargo, anc li cargo self, o li activitá de transporter le.",
