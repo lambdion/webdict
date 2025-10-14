@@ -70,3 +70,12 @@ function goto(query) {
     document.getElementById("search-bar").value = query; // Set the text entered into #search-bar to query
     queryDict(dict, query) // Search for query as if the user had pressed a key in the search bar
 }
+
+let dict = null;
+window.addEventListener("DOMContentLoaded", async () => {
+  const response = await fetch("./webdict.json");
+  if (response.ok) {
+    dict = await response.json();
+    queryData(dict, "")
+  }
+})
