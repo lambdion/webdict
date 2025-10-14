@@ -58,6 +58,17 @@
                 "sinonimes": ["borgo"],
                 "notes": "Languages and even specific countries have differing rules regarding when or whether a large enough town becomes classed as a city."
         },
+        "curt": {
+                "radica": "curt",
+                "tema": "-i",
+                "pronunciation": "/kurt/",
+                "categorie": "adjective",
+                "diacronic": "curtus",
+                "cognates": ["A. curt", "F. court", "G. kurz", "H. corto", "I. corto"],
+                "meaning": "Of little length (distance, duration, etc.)",
+                "signification": "De poc longore (distantie, duration, etc.)",
+                "sinonimes": ["brevi"]
+        },
         "declarar": {
                 "radica": "declar",
                 "tema": "ar",
@@ -135,6 +146,17 @@
                 "meaning": "To jump, to propel oneself up from the ground or down off from a high place with the legs.",
                 "signification": "Propulse se ad-supra del suol o ad-infra de un alt loc con li gambes.",
                 "cognates": ["A. saltate", "F. sauter", "H. saltar", "I. saltare"]
+        },
+        "scrir": {
+                "radica": "scr",
+                "tema": "ir",
+                "pronunciation": "/skrir/",
+                "categorie": "verbe",
+                "diacronic": "L. scrībere",
+                "cognates": ["F. écrire", "H. escribir", "I. scrivere"],
+                "meaning": "To form [some text] on a surface, or to create [a written work].",
+                "signification": "Formar [alcun textu] sur un superficie, o crear [un scrit ovre].",
+                "sinonimes": ["inscrir", "composir", "scriachar"]
         },
         "tron": {
                 "radica": "tròn",
