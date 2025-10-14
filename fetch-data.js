@@ -1,4 +1,3 @@
-/*
 let dict = null;
 window.addEventListener("DOMContentLoaded", async () => {
   const response = await fetch("./webdict.json");
@@ -7,4 +6,3 @@ window.addEventListener("DOMContentLoaded", async () => {
     queryData(dict, "")
   }
 });
-*/
