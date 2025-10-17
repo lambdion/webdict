@@ -23,12 +23,16 @@
                 <input type="button" class="bar-button" value="Info" id="info-button" onclick="showInfo()">
                 <a href="https://github.com/lambdion/webdict/"><input type="button" class="bar-button" value="GitHub"></a>
             </div>
-            <p style="text-align: center;">
+            <div class="options">
                 <label>
-                    <input type="checkbox" name="colors" checked autocomplete="off" onclick="toggleColors()"/>
-                    Colors
+                    <input type="checkbox" name="colores" checked autocomplete="off" onclick="toggleColors()" />
+                    Usa colores
                 </label>
-            </p>
+                <label>
+                    <input type="range" name="finales" autocomplete="off" min="0" max="1" step="0.1" value="0.1" id="finales" oninput="changeOpacity()" />
+                    Opacitá del facultativ finales
+                </label>
+            </div>
             <div class="results" id="results">
             </div>
             <noscript>Ti dictionarium besona JavaScript por functionar. <a href="./webdict.json">Vide li JSON data self.</a></noscript>

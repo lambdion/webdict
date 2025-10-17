@@ -29,7 +29,7 @@ body {
     flex-direction: row;
     margin: 0 0 1em 0;
 }
-input {
+.bar input {
     box-sizing: border-box;
     padding: 0.5em;
     font-size: 1.5em;
@@ -49,6 +49,15 @@ input {
     width: 0;
     flex-grow: 1;
     background-color: #e9e9ed;
+}
+/* OPTIONS */
+.options {
+    display: flex;
+    justify-content: space-evenly;
+}
+#finales {
+    width: 6em;
+    height: 1em;
 }
 /* RESULTS */
 .result, .info {
@@ -78,15 +87,13 @@ input {
 .a { color: gold; } /* #8A7500 for accessibility */
 .ar { color: orange; } /* #A36A00 for accessibility*/
 .e { color: firebrick; }
-.-e {color: rgba(255, 0, 0, 0.1); }
 .é {color: firebrick}
 .er { color: crimson; }
 .i { color: royalblue }
 .ir { color: deepskyblue; } /* #007EA8 for accessibility */
-.-i { color: rgba(0, 0, 255, 0.1); }
 .o { color: darkslateblue; }
 .u { color: indigo; }
-.ie { color: mediumpurple; } /* #855CD6 for accessibility */
+.optional { opacity: 0.1 }
 
 /* TODO
  * Make Info and GitHub buttons comply with Google Lighthouse (24px?)

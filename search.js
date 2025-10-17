@@ -1,3 +1,4 @@
+var colors = true;
 function condition(entry, query) {
     "Return true if the entry contains the query string, case insensitive."
     return entry.toLowerCase().includes(query.toLowerCase())
@@ -15,21 +16,25 @@ function queryDict(dict, query) {
 }
 function theme(theme) {
     "Take a root string and a theme vowel class and return an HTML string to be appended to the root."
-    return {
-        "a": "<span class='a'>a</span>",
-        "ar": "<span class='ar'>àr</span>",
-        "e": "<span class='e'>e</span>",
-        "-e": "<span class='-e'>e</span>",
-        "é": "<span class='é'>é</span>",
-        "er": "<span class='er'>èr</span>",
-        "i": "<span class='i'>i</span>",
-        "-i": "<span class='-i'>i</span>",
-        "ir": "<span class='ir'>ìr</span>",
-        "o": "<span class='o'>o</span>",
+    let color = colors ? "revert-layer" : "inherit" // If colors is true set the color to be revert-layer, otherwise inherit
+    // This has to be there so that toggleColors has something to change
+    let opacity = colors ? document.getElementById("finales").value : "0"
+    // If colors is true, set the opacity to the value of the slider, otherwise to 0
+    return ({
+        "a": "<span class='a' style='color: " + color + ";'>a</span>",
+        "ar": "<span class='ar' style='color: " + color + ";'>àr</span>",
+        "e": "<span class='e' style='color: " + color + ";'>e</span>",
+        "-e": "<span class='e optional' style='color: " + color + "; opacity: " + opacity + "'>e</span>",
+        "é": "<span class='é' style='color: " + color + ";'>é</span>",
+        "er": "<span class='er' style='color: " + color + ";'>èr</span>",
+        "i": "<span class='i' style='color: " + color + ";'>i</span>",
+        "-i": "<span class='i optional' style='color: " + color + "; opacity: " + opacity + "'>i</span>",
+        "ir": "<span class='ir' style='color: " + color + ";'>ìr</span>",
+        "o": "<span class='o' style='color: " + color + ";'>o</span>",
         "u": "", // Nouns ending -u are still nouns but have no possibility of having an added -e
         "iei": "", // Adjectives ending -ie are still adjectives but have no possibility of having an added -i
         "": ""
-    }[theme]
+    })[theme]
 }
 function depale(theme) {
     "Remove the initial - from a theme in order to get the full theme for optional themes."
@@ -73,6 +78,8 @@ function goto(query) {
     queryDict(dict, query) // Search for query as if the user had pressed a key in the search bar
 }
 function toggleColors(){
+    // Toggle global colors variable
+    colors = !colors
     // Get all elements with color classnames and toggle their color style between inherit (black) to revert-layer (whatever their class says)
     for (element of document.querySelectorAll(".a, .ar, .e, .é, .er, .i, .ir, .o, .u")){
         if (element.style.color == "inherit"){
@@ -81,12 +88,17 @@ function toggleColors(){
             element.style.color = "inherit"
         }
     }
-    // Get all elements with faded color classnames and toggle their color style between transparent and revert-layer
-    for (element of document.querySelectorAll(".-e, .-i")){
-        if (element.style.color == "transparent"){
-            element.style.color = "revert-layer"
-        } else {
-            element.style.color = "transparent"
-        }
+    // Set opacity to default
+    if (!colors){
+        document.getElementById("finales").value = "0"
+        changeOpacity()
+    } else {
+        document.getElementById("finales").value = "0.1"
+        changeOpacity()
+    }
+}
+function changeOpacity(){
+    for (element of document.getElementsByClassName("optional")){
+        element.style.opacity = document.getElementById("finales").value
     }
 }
