@@ -55,11 +55,12 @@ function insertResults(resultsElement, resultsList) {
                 } // Replace [[text]] with <a href="" onlick="goto('text')">text</a>
                 return value
             }
+        let color = colors ? "revert-layer" : "inherit" // If colors is true set the color to be revert-layer, otherwise inherit
         let resultCard = `
         <div class="result">
             <p class="pronunciation display">${field("pronunciation")}</p>
             <p class="lemma display">${field("radica") + theme(field("tema"))}</p>
-            <p class="cat ${depale(field("tema"))}">${field("categorie")}</p>
+            <p class="cat ${depale(field("tema"))}" style="color: ${color}">${field("categorie")}</p>
             <p>${field("sincronic")}</p>
             <p>${field("diacronic")}</p>
             <p><i>${field("meaning")}</i></p>
