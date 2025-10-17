@@ -72,3 +72,21 @@ function goto(query) {
     document.getElementById("search-bar").value = query; // Set the text entered into #search-bar to query
     queryDict(dict, query) // Search for query as if the user had pressed a key in the search bar
 }
+function toggleColors(){
+    // Get all elements with color classnames and toggle their color style between inherit (black) to revert-layer (whatever their class says)
+    for (element of document.querySelectorAll(".a, .ar, .e, .é, .er, .i, .ir, .o, .u")){
+        if (element.style.color == "inherit"){
+            element.style.color = "revert-layer"
+        } else {
+            element.style.color = "inherit"
+        }
+    }
+    // Get all elements with faded color classnames and toggle their color style between transparent and revert-layer
+    for (element of document.querySelectorAll(".-e, .-i")){
+        if (element.style.color == "transparent"){
+            element.style.color = "revert-layer"
+        } else {
+            element.style.color = "transparent"
+        }
+    }
+}
